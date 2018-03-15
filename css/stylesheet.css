@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Aldrich');
+
+body{
+  background-image: url("https://i.pinimg.com/originals/29/e8/14/29e8144a9316ea85fc887cc6a2bd40f6.jpg");
+  height: 100%;
+  background-size: cover;
+  font-family: Aldrich;
+}
+
+
+h1{
+  font-size: 60px;
+  text-align: center;
+
+}
+h2{
+  font-size: 30px;
+
+
+}
+.wrapper{
+  margin-top: 150px;
+  text-align: center;
+}
+.wrapper a{
+  text-decoration: none;
+  color: black
+}
+
+.inschrijven, .uitschrijven, .beheren, .versturen  {
+ background: linear-gradient(to bottom, lightblue 0%, aliceblue 100%);
+ padding: 10px;
+ margin-left: 43%;
+ margin-right: 43%;
+ border-radius: 5px;
+ box-shadow: #ccc 5px 5px;
+ margin-top: 60px;
+}
+
+ a div:hover  {
+ background: #f3f3f3;
+}
+/*Page ////////////inschrijven.php  */
+
+.wrapper_inschrijven{
+ text-align: center;
+ margin-top: 100px;
+}
+.form_inschrijven{
+  margin-top: 75px;
+}
+
+input{
+  background-color: #ccc;
+  border-style: solid;
+  text-align: center;
+  width: 250px;
+  height: 25px;
+  border-radius: 2px;
+  padding: 2px;
+}
+#knop{
+  margin-top: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: white;
+}
+#knop:hover{
+  background-color:#ccc;
+}
+
+/*Page ///////uitschrijven.php  */
+.wrapper_uitschrijven{
+  text-align: center;
+  margin-top: 100px;
+}
+.email{
+  margin-top: 100px;
+}
+/*Versturen page  */
+.wrapper_versturen{
+  text-align: center;
+  margin-top: 200px;
+}
+textarea{
+  background-color: #ccc;
+  
+}
+#send{
+  margin-top: 30px;
+  width: 100px;
+  border-radius: 5px;
+  background-color: white;
+}
+#send:hover{
+  background-color:#ccc;
+}
